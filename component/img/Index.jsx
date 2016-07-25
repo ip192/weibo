@@ -38,8 +38,8 @@ export default class Index extends Component {
             );
         } else if (this.props.isCancel) {
             footer = (
-                <div className='coo-dialog-footer'>
-                    <a href="javascript:;" className='coo-btn-dialog-cancel' onClick={this.onCancel}>取消</a>
+                <div className={'coo-dialog-footer'}>
+                    <a href="javascript:;" className={'coo-btn-dialog-cancel'} onClick={this.onCancel}>取消</a>
                 </div>
             );
         }
